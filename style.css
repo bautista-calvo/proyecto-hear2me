@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.logoheader{
+    color: blue;
+}
+
+
+form{
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px 0;
+    width: 25%;
+}
+
+.buscador{
+    border: none;
+    background-color: white;
+    margin-left: 10px;
+    padding-right: 175px;
+}
+
+.botonbuscador{
+    border: none;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+}
+
+
+.buttonsheader{
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+}
+
+.linav{
+    padding-right:20px;
+}
+
+.buttonnav{
+    background-color: black;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    color: blue;
+}
+
+main{
+    background-image: url(images/newlabel.jpg);
+}
