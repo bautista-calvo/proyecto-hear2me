@@ -104,10 +104,63 @@ section{
     color: white;
     border: 1px solid white;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 :hover.suscribirse{
     background-color: white;
     color: white;
     border: 2px solid blue;
+}
+
+
+footer{
+    background-color: rgb(102, 92, 92);
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    justify-content: space-around;
+}
+
+.containerfooterhear2me{
+    width: 20vw;
+}
+
+.h3hear2mefooter{
+    text-align: center;
+}
+
+.phear2mefooter{
+    text-align:justify;
+    line-height: 40px;
+}
+
+.footericonos{
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-brands{
+    height: 10vh;
+    padding: 10px 0;
+}
+
+.divusefulllinks{
+    display: flex;
+    flex-direction: column;
+}
+
+.usefulllinks{
+    height: 10vh;
+    padding: 7px 0;
+}
+
+.containercontactus{
+    display: flex;
+    flex-direction: column;
+}
+
+.contentcontactus{
+    display: flex;
+    padding-top: 20px;
 }
