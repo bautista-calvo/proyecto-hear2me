@@ -5,6 +5,9 @@
     <title>Hear2me</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/43052858f3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -15,20 +18,19 @@
       </form>
       <nav>
         <ul class="buttonsheader">
-          <li class="linav"><button class="buttonnav" type="submit">inicio</button></li>
-          <li class="linav"><button class="buttonnav" type="submit">about us</button></li>
+          <li class="linav"><a class="buttonnav" href="#">inicio</a></li>
+          <li class="linav"><a class="buttonnav" href="#">about us</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section>
-        <div>
-          <h1>NEW LABEL EXPERIENCE</h1>
-          <p>Mauro y Rama. Una nueva experiencia cada semana. Ojalá les guste, y les sea útil.</p>      
+        <div class="genericpodcast">
+          <h1 class="titulopodcast">NEW LABEL EXPERIENCE</h1>
+          <p class="descripcionpodcast">Mauro y Rama. Una nueva experiencia cada semana. Ojalá les guste, y les sea útil.</p>      
         </div>
         <div>
-          <button>Suscribirse</button>
-          <h2>$5.00</h2>
+          <button type="submit" class="suscribirse">Suscribirse por $5.00 al mes</button>
         </div>
       </section>
     </main>

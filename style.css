@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -11,7 +11,9 @@ header{
 }
 
 .logoheader{
-    color: blue;
+    background-image: linear-gradient(#182f7b,#32187b);;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -20,10 +22,11 @@ form{
     background-color: white;
     border-radius: 15px;
     margin: 10px 0;
-    width: 25%;
+    width: 24%;
 }
 
 .buscador{
+    outline: none;
     border: none;
     background-color: white;
     margin-left: 10px;
@@ -54,13 +57,15 @@ nav{
     background-color: black;
     border: none;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
-    color: blue;
+    background-image: linear-gradient(#182f7b,#32187b);;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 main{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background:linear-gradient(rgba(5,7,12,0.65), rgba(5,7,12,0.65)), url(images/newlabel.jpg);
     background-repeat: no-repeat;
@@ -68,3 +73,41 @@ main{
 }
 
 
+section{
+    height: 90vh;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.genericpodcast{
+    color: white;
+}
+
+.titulopodcast{
+    padding-bottom: 15px;
+}
+
+.descripcionpodcast{
+    width: 350px;
+    line-height: 25px;
+}
+
+.suscribirse{
+    width: 18vw;
+    height: 6vh;
+    background-image: linear-gradient(#182f7b,#32187b);
+    font-size: 18px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+:hover.suscribirse{
+    background-color: white;
+    color: white;
+    border: 2px solid blue;
+}
