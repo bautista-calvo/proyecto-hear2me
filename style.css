@@ -14,23 +14,27 @@ header{
     background-image: linear-gradient(#182f7b,#32187b);;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-top: 5px;
 }
 
 
 form{
-    border: 1px solid black;
+    border: 1px solid #182f7b;
     background-color: white;
     border-radius: 15px;
     margin: 10px 0;
     width: 24%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
 }
 
 .buscador{
     outline: none;
     border: none;
     background-color: white;
-    margin-left: 10px;
-    padding-right: 175px;
+    /* margin-left: 10px;*/
+    
 }
 
 .botonbuscador{
